@@ -10,7 +10,7 @@
 }
 h1 {
     font-size: 100pt;
-    letter-spacing: -0.1em;
+    letter-spacing: -0.15em;
     font-weight: 800;
 }
 
@@ -67,5 +67,18 @@ h3, h4 {
 
 .noga {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size: 80pt;
+    }
+
+}
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: 60pt;
+    }
+
 }
