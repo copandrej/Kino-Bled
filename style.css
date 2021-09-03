@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700;800;900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Spartan', sans-serif;
+ color: orange; 
+ text-align: center;
+ text-decoration: none;
+}
+h1 {
+    font-size: 100pt;
+    letter-spacing: -0.1em;
+    font-weight: 800;
+}
+
+.hover:hover, a:hover {
+    color: black!important;
+}
+
+h3 {
+    margin: auto;
+    /*margin-left: 40%;
+    margin-right: 40%;*/
+}
+
+h2 {
+    font-size: 25pt;
+    letter-spacing: -0.075em;
+    font-weight: 800;
+}
+
+h3, h4 {
+    margin-top: 2px;
+    font-size: 15pt;
+    letter-spacing: -0.075em;
+    font-weight: 800;
+    line-height: 15pt;
+}
+
+.r{
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0);
+    transition-duration: 200ms;
+    height: 35px;
+    /*margin-left: 40%;
+    margin-right: 40%;*/
+}
+.r p {
+    
+    padding-bottom: 10px;
+}
+.jezik {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.naslov {
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+.podnaslov {
+    margin-bottom: 60px;
+}
+
+.noga {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
