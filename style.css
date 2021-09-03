@@ -8,6 +8,9 @@
  text-align: center;
  text-decoration: none;
 }
+body {
+    overflow-y: scroll; /* Show vertical scrollbar */
+}
 h1 {
     font-size: 100pt;
     letter-spacing: -0.15em;
