@@ -26,18 +26,18 @@ window.addEventListener("load", () => {
         if (Jezik == "sl") {
             trenutniJezik = "sl";     
             for (let i = 0; i < spremeni.length; i++)
-                spremeni[i].innerText = DneviSlo[i];
+                spremeni[i].innerHTML = DneviSlo[i];
 
-            prevedi[0].innerText = "ZAVOD ASPEKT    PREDSTAVLJA";
-            prevedi[1].innerText = "PIŠITE NAM";
+            prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
+            prevedi[1].innerHTML = "PIŠITE NAM";
             vsebina(trenutniJezik);
             
         } else {
             trenutniJezik = "en";
             for (let i = 0; i < spremeni.length; i++)
-                spremeni[i].innerText = DneviEng[i];
-            prevedi[0].innerText = "ASPEKT INSTITUTE    PRESENTS";
-            prevedi[1].innerText = "EMAIL US";
+                spremeni[i].innerHTML = DneviEng[i];
+            prevedi[0].innerHTML = "ASPEKT INSTITUTE    PRESENTS";
+            prevedi[1].innerHTML = "EMAIL US";
             vsebina(trenutniJezik);
         }
     }
