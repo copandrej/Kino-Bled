@@ -1,0 +1,68 @@
+{
+    "TUESDAY": [
+      {
+        "naslov": "19:00",
+        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+      },
+      {
+        "naslov": "20:00",
+        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+      },
+      {
+        "naslov": "21:00",
+        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "vitae dicta sunt explicabo"]
+      },
+      {
+        "naslov": "22:00",
+        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+      }
+    ],
+    "WEDNESDAY": [
+        {
+          "naslov": "19:00",
+          "vrstice": ["EXAMPLE WITH CAPS 2","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "consectetur, adipisci velit" , "sed quia non"]
+        },
+        {
+          "naslov": "20:00",
+          "vrstice": ["EXAMPLE WITH CAPS 2","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        }
+      ],
+      "THURSDAY": [
+        {
+          "naslov": "22:00",
+          "vrstice": ["EXAMPLE WITH CAPS 3","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "ipsum dolor"]
+        }
+      ],
+      "FRIDAY": [
+        {
+          "naslov": "19:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        },
+        {
+          "naslov": "20:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        },
+        {
+          "naslov": "22:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        }
+      ],
+      "SATURDAY": [
+        {
+          "naslov": "19:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        },
+        {
+          "naslov": "20:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        },
+        {
+          "naslov": "21:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        },
+        {
+          "naslov": "22:00",
+          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        }
+      ]
+  }
