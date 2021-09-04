@@ -7,7 +7,7 @@ function poravnaj(el) {
 
 
 window.addEventListener("load", () => {
-    let DneviSlo = ["TOREK", "SREDA", "ČETRTEK", "PETEK", "SOBOTA"];
+    let DneviSlo = ["TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA"];
     let DneviEng = ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
     let userLang = navigator.language || navigator.userLanguage; 
     let trenutniJezik = ""
@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviSlo[i];
 
             prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
-            prevedi[1].innerHTML = "PIŠITE NAM";
+            prevedi[1].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
             
         } else {
