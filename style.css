@@ -98,7 +98,17 @@ h3 {
 
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 510px) {
+    h1 {
+        font-size: 60pt;
+    }
+    img{
+        width: 400px;
+    }
+
+
+}
+@media only screen and (max-width: 405px) {
     h1 {
         font-size: 60pt;
     }
