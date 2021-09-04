@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
  padding: 0;
@@ -8,62 +8,77 @@
  text-align: center;
  text-decoration: none;
 }
+
+/*da ne skače ko se pojavi scroll, je scroll rajš cel cajt*/
 body {
-    overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-y: scroll;
 }
+
+/*razni stili naslovov*/
 h1 {
     font-size: 100pt;
     letter-spacing: -0.15em;
     font-weight: 800;
 }
-
-.hover:hover, a:hover {
-    color: black!important;
-}
-
-h3 {
-    margin: auto;
-    /*margin-left: 40%;
-    margin-right: 40%;*/
+h2, h3 {
+    letter-spacing: -0.075em;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 25pt;
-    letter-spacing: -0.075em;
-    font-weight: 800;
+    font-size: 25pt;   
+    margin-top: 12px;
+    line-height: 25pt;
 }
 
-h3, h4 {
+h3 {
     margin-top: 2px;
     font-size: 15pt;
-    letter-spacing: -0.075em;
-    font-weight: 800;
     line-height: 15pt;
 }
-
-.r{
-    overflow: hidden;
-    color: rgba(255, 255, 255, 0);
-    transition-duration: 200ms;
-    height: 35px;
-    /*margin-left: 40%;
-    margin-right: 40%;*/
+.minus {
+    letter-spacing: -0.17em;
+    font-weight: 900;
+    padding-right: 8px;
 }
-.r p {
-    
+
+.hover:hover, a:hover {
+    color: black!important;
+    transition: 0ms;
+}
+
+.hover {
+    cursor: pointer;
+    transition: 50ms;
+}
+
+.r {
+    overflow: hidden;
+    transition-duration: 200ms;
+    height: 41px;
+}
+
+.skri {
     padding-bottom: 10px;
 }
+.r h3 {
+    padding-top: 15px;
+}
+.r p {
+    letter-spacing: -0.1em;
+    font-weight: 500;
+}
+
 .jezik {
     margin-top: 55px;
     margin-bottom: 55px;
-
 }
 
 .naslov {
     margin-top: 20px;
-    margin-bottom: 0px;
-
+    margin-bottom: 20px;
 }
+
 .podnaslov {
     margin-bottom: 55px;
 }
@@ -73,15 +88,23 @@ h3, h4 {
     margin-bottom: 120px;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 800px) {
     h1 {
         font-size: 80pt;
     }
+    img{
+        width: 500px;
+    }
 
 }
+
 @media only screen and (max-width: 520px) {
     h1 {
         font-size: 60pt;
     }
+    img{
+        width: 300px;
+    }
+
 
 }
