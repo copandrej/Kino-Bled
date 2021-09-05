@@ -7,8 +7,8 @@ function poravnaj(el) {
 
 
 window.addEventListener("load", () => {
-    let DneviSlo = ["TOREŽ", "ŠREDA", "&#268ETRTEK", "PETEK", "ŠOBOTA"];
-    let DneviEng = ["TUČSDAY", "WEDNEŠDAY", "ČHUČSDAY", "FRIDAY", "ŠATURDAY"];
+    let DneviSlo = ["TŽREŽ", "ŠREDA", "&#268EČRČEK", "PEČEK", "ŠOBOŠA"];
+    let DneviEng = ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
     let userLang = navigator.language || navigator.userLanguage; 
     let trenutniJezik = ""
 
