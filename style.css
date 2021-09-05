@@ -4,14 +4,17 @@
  padding: 0;
  margin: 0;
  font-family: 'Spartan', sans-serif;
- color: rgb(255, 128, 0); 
+ color: #EE790A; 
  text-align: center;
  text-decoration: none;
 }
-
+img {
+    width: 600px;
+}
 /*da ne skače ko se pojavi scroll, je scroll rajš cel cajt*/
 body {
     overflow-y: scroll;
+    background-color: #F8F2E9;
 }
 
 /*razni stili naslovov*/
