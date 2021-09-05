@@ -1,15 +1,28 @@
 function zapri(el) {
     (el.clientHeight >= 45) ? el.style.height = "41px" : el.style.height = (el.childNodes[3].clientHeight + 41).toString() + "px";
 }
+
 function poravnaj(el) {
     if (el.clientHeight >= 45) el.style.height = (el.childNodes[3].clientHeight + 41).toString() + "px";
 }
 
 
 window.addEventListener("load", () => {
-    let DneviSlo = ["TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA"];
-    let DneviEng = ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
-    let userLang = navigator.language || navigator.userLanguage; 
+    /** DOM 
+     * debug pred spremembo skrije Četrtek ker težave z Č-jem, 
+     * po spremembi displaya nazaj
+     * safari
+    */
+    const spremeni = document.getElementsByClassName("dan");
+    const prevedi = document.getElementsByClassName("prevedi");
+    const debug = document.getElementById("debug");
+    const dnevi = document.getElementsByClassName("skri");
+
+    // Dnevi v tednu + jezik browserja
+    const DneviSlo = ["TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA"];
+    const DneviEng = ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+    const userLang = navigator.language || navigator.userLanguage; 
+
     let trenutniJezik = ""
 
     if(userLang == "sl" && trenutniJezik != "sl") 
@@ -17,19 +30,24 @@ window.addEventListener("load", () => {
     else if (userLang != "sl" && trenutniJezik != "en")
         spremembaJezika("en");
 
+    // gumb za nastavljanje jezika
     $(".slo").click(() => {spremembaJezika("sl");});
     $(".eng").click(() => {spremembaJezika("en");});
 
+
+    /**
+     * 
+     * najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program
+     */
     function spremembaJezika(Jezik) {
-        let spremeni = document.getElementsByClassName("dan");
-        let prevedi = document.getElementsByClassName("prevedi");
-        let debug = document.getElementById("debug"); 
         if (Jezik == "sl") {
             trenutniJezik = "sl"; 
+            //zgoraj opisan hrošč
             debug.style.display="none";
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviSlo[i];
             debug.style.display="inline";
+
             prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
             prevedi[1].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
@@ -46,11 +64,14 @@ window.addEventListener("load", () => {
         }
     }
 
+    /**
+     * ajax request za json vsebino priloženo v mapi vsebina,
+     * js prebere in zgradi html strukturo za dinamično veliko vsebino
+     * prostor za izbolšavo z api ali bazo
+     */
     function vsebina(jezik) {
         let imeDatoteke = `vsebina/${jezik}.json`
-        console.log(imeDatoteke);
         $.getJSON(imeDatoteke, (data) => {
-            let dnevi = document.getElementsByClassName("skri");
             for (let i = 0; i < dnevi.length; i++) {  
                 let string = ""; 
                 for (let k = 0; k < data[DneviEng[i]].length; k++) {
