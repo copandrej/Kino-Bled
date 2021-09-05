@@ -23,19 +23,23 @@ window.addEventListener("load", () => {
     function spremembaJezika(Jezik) {
         let spremeni = document.getElementsByClassName("dan");
         let prevedi = document.getElementsByClassName("prevedi");
+        let debug = document.getElementById("debug"); 
         if (Jezik == "sl") {
-            trenutniJezik = "sl";     
+            trenutniJezik = "sl"; 
+            debug.style.display="none";
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviSlo[i];
-
+            debug.style.display="inline";
             prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
             prevedi[1].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
             
         } else {
             trenutniJezik = "en";
+            debug.style.display="none";
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviEng[i];
+            debug.style.display="inline";
             prevedi[0].innerHTML = "ASPEKT INSTITUTE    PRESENTS";
             prevedi[1].innerHTML = "EMAIL US";
             vsebina(trenutniJezik);
