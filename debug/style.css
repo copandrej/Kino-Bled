@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Spartan', sans-serif;
+ color: #EE790A; 
+ text-align: center;
+ text-decoration: none;
+}
+img {
+    width: 600px;
+}
+/*da ne skače ko se pojavi scroll, je scroll rajš cel cajt*/
+body {
+    overflow-y: scroll;
+    background-color: #F8F2E9;
+}
+
+/*razni stili naslovov*/
+h1 {
+    font-size: 100pt;
+    letter-spacing: -0.15em;
+    font-weight: 800;
+}
+h2, h3 {
+    letter-spacing: -0.075em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 25pt;   
+    margin-top: 12px;
+    line-height: 25pt;
+}
+
+h3 {
+    margin-top: 2px;
+    font-size: 15pt;
+    line-height: 15pt;
+}
+.minus {
+    letter-spacing: -0.17em;
+    font-weight: 900;
+    padding-right: 8px;
+}
+
+.hover:hover, a:hover {
+    color: black!important;
+    transition: 0ms;
+}
+
+.hover {
+    cursor: pointer;
+    transition: 50ms;
+}
+
+.r {
+    overflow: hidden;
+    transition-duration: 200ms;
+    height: 41px;
+}
+
+.skri {
+    padding-bottom: 10px;
+}
+.r h3 {
+    padding-top: 15px;
+}
+.r p {
+    letter-spacing: -0.1em;
+    font-weight: 500;
+}
+
+.jezik {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.naslov {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.podnaslov {
+    margin-bottom: 55px;
+}
+
+.noga {
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 80pt;
+    }
+    img{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+    h1 {
+        font-size: 60pt;
+    }
+    img{
+        width: 450px;
+    }
+
+
+}
+@media only screen and (max-width: 455px) {
+    h1 {
+        font-size: 60pt;
+    }
+    img{
+        width: 400px;
+    }
+
+
+}
+@media only screen and (max-width: 405px) {
+    h1 {
+        font-size: 60pt;
+    }
+    img{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 355px) {
+    h1 {
+        font-size: 60pt;
+    }
+    img{
+        width: 300px;
+    }
+
+
+}
