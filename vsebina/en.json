@@ -1,68 +1,84 @@
 {
-    "TUESDAY": [
+  "TUESDAY": [
+    {
+      "naslov": "19:00",
+      "vrstice": ["otvoritev festivala","tiskovna konferenca"]
+    },
+    {
+      "naslov": "20:00",
+      "vrstice": ["Honey Boy (ZDA, 2019, 96’)"]
+    }
+  ],
+  "WEDNESDAY": [
       {
-        "naslov": "19:00",
-        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        "naslov": "07:30",
+        "vrstice": ["otvoritev festivala","tiskovna konferenca"]
       },
       {
-        "naslov": "20:00",
-        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        "naslov": "18:00",
+        "vrstice": ["otvoritev fotografske razstave"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Tistega lepega dne (Jugoslavija/Slovenija, 1962, 83’)"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "vitae dicta sunt explicabo"]
-      },
-      {
-        "naslov": "22:00",
-        "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
+        "vrstice": ["Klub kresnička (7’)","Mojster za katastrofo (The Disaster artist, ZDA, 2017, 104’)"]
       }
     ],
-    "WEDNESDAY": [
-        {
-          "naslov": "19:00",
-          "vrstice": ["EXAMPLE WITH CAPS 2","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "consectetur, adipisci velit" , "sed quia non"]
-        },
-        {
-          "naslov": "20:00",
-          "vrstice": ["EXAMPLE WITH CAPS 2","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        }
-      ],
-      "THURSDAY": [
-        {
-          "naslov": "22:00",
-          "vrstice": ["EXAMPLE WITH CAPS 3","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur", "ipsum dolor"]
-        }
-      ],
-      "FRIDAY": [
-        {
-          "naslov": "19:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        },
-        {
-          "naslov": "20:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        },
-        {
-          "naslov": "22:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        }
-      ],
-      "SATURDAY": [
-        {
-          "naslov": "19:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        },
-        {
-          "naslov": "20:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        },
-        {
-          "naslov": "21:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        },
-        {
-          "naslov": "22:00",
-          "vrstice": ["EXAMPLE WITH CAPS","Lorem ipsum dolor sit amet","eu fugiat nulla pariatur"]
-        }
-      ]
+    "THURSDAY": [
+      {
+        "naslov": "17:30",
+        "vrstice": ["potopisno predavanje: Grčija"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Kolo (3’)","April in nenavadni svet (Avril et le Monde truqué, Francija, 2015, 105’)"]
+      },
+      {
+        "naslov": "21:00",
+        "vrstice": ["Smaragdni raj (Emerald Paradise, Slovenija, 2021)"]
+      }
+    ],
+    "FRIDAY": [
+      {
+        "naslov": "10:00",
+        "vrstice": ["voden ogled Bleda / zbor: TIC Bled (Cesta svobode 10)"]
+      },
+      {
+        "naslov": "17:00",
+        "vrstice": ["delavnica: Fiziolofija (ob lepem vremenu na prostem)"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Nažgani (Druk, Danska, 2020, 117’)"]
+      },
+      {
+        "naslov": "21:30",
+        "vrstice": ["Vrhunec (Climax, Francija, 2018, 96’)"]
+      }
+    ],
+    "SATURDAY": [
+      {
+        "naslov": "12:30",
+        "vrstice": ["pogovor ob kavi: Medosebni odnosi (@Tavci vegan cafe)"]
+      },
+      {
+        "naslov": "15:00",
+        "vrstice": ["Bacek Jon: Farmagedon (Shaun the Sheep Movie: Farmageddon, VB/ZDA/FR, 2019, 87’)"]
+      },
+      {
+        "naslov": "17:00",
+        "vrstice": ["okrogla miza: Aspekti in perspektive Bleda"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Krt (El Agente Topo, Čile, 2020, 84’)"]
+      },
+      {
+        "naslov": "21:00",
+        "vrstice": ["Velika noč (7’)","Medved Brigsby (Brigsby Bear, ZDA, 2017, 97’)"]
+      }
+    ]
   }

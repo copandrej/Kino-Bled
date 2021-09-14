@@ -2,79 +2,83 @@
   "TUESDAY": [
     {
       "naslov": "19:00",
-      "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
+      "vrstice": ["otvoritev festivala","tiskovna konferenca"]
     },
     {
       "naslov": "20:00",
-      "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
-    },
-    {
-      "naslov": "21:00",
-      "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
-    },
-    {
-      "naslov": "22:00",
-      "vrstice": ["PRIMERI Z VELIKIMI ČRKAMI","primer ene vrstice","primer druge vrstice", "to je primer tretje vrstice"]
+      "vrstice": ["Honey Boy (ZDA, 2019, 96’)"]
     }
   ],
   "WEDNESDAY": [
       {
-        "naslov": "19:00",
-        "vrstice": ["PRIMER 2","primer ene vrstice","primer druge vrstice"]
+        "naslov": "07:30",
+        "vrstice": ["otvoritev festivala","tiskovna konferenca"]
       },
       {
-        "naslov": "20:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
+        "naslov": "18:00",
+        "vrstice": ["otvoritev fotografske razstave"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Tistega lepega dne (Jugoslavija/Slovenija, 1962, 83’)"]
+      },
+      {
+        "naslov": "21:00",
+        "vrstice": ["Klub kresnička (7’)","Mojster za katastrofo (The Disaster artist, ZDA, 2017, 104’)"]
       }
     ],
     "THURSDAY": [
       {
-        "naslov": "19:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
+        "naslov": "17:30",
+        "vrstice": ["potopisno predavanje: Grčija"]
       },
       {
-        "naslov": "20:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
+        "naslov": "19:00",
+        "vrstice": ["Kolo (3’)","April in nenavadni svet (Avril et le Monde truqué, Francija, 2015, 105’)"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
-      },
-      {
-        "naslov": "22:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice", "to je primer tretje vrstice"]
+        "vrstice": ["Smaragdni raj (Emerald Paradise, Slovenija, 2021)"]
       }
     ],
     "FRIDAY": [
       {
+        "naslov": "10:00",
+        "vrstice": ["voden ogled Bleda / zbor: TIC Bled (Cesta svobode 10)"]
+      },
+      {
+        "naslov": "17:00",
+        "vrstice": ["delavnica: Fiziolofija (ob lepem vremenu na prostem)"]
+      },
+      {
         "naslov": "19:00",
-        "vrstice": ["PRIMER 4","primer ene vrstice","primer druge vrstice"]
+        "vrstice": ["Nažgani (Druk, Danska, 2020, 117’)"]
       },
       {
-        "naslov": "20:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
-      },
-      {
-        "naslov": "22:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice", "to je primer tretje vrstice"]
+        "naslov": "21:30",
+        "vrstice": ["Vrhunec (Climax, Francija, 2018, 96’)"]
       }
     ],
     "SATURDAY": [
       {
-        "naslov": "19:00",
-        "vrstice": ["PRIMER 5","primer ene vrstice","primer druge vrstice"]
+        "naslov": "12:30",
+        "vrstice": ["pogovor ob kavi: Medosebni odnosi (@Tavci vegan cafe)"]
       },
       {
-        "naslov": "20:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
+        "naslov": "15:00",
+        "vrstice": ["Bacek Jon: Farmagedon (Shaun the Sheep Movie: Farmageddon, VB/ZDA/FR, 2019, 87’)"]
+      },
+      {
+        "naslov": "17:00",
+        "vrstice": ["okrogla miza: Aspekti in perspektive Bleda"]
+      },
+      {
+        "naslov": "19:00",
+        "vrstice": ["Krt (El Agente Topo, Čile, 2020, 84’)"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice"]
-      },
-      {
-        "naslov": "22:00",
-        "vrstice": ["PRIMER","primer ene vrstice","primer druge vrstice", "to je primer tretje vrstice"]
+        "vrstice": ["Velika noč (7’)","Medved Brigsby (Brigsby Bear, ZDA, 2017, 97’)"]
       }
     ]
   }

@@ -21,18 +21,18 @@ window.addEventListener("load", () => {
     // Dnevi v tednu + jezik browserja
     const DneviSlo = ["TOREK", "SREDA", "&#268ETRTEK", "PETEK", "SOBOTA"];
     const DneviEng = ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
-    const userLang = navigator.language || navigator.userLanguage; 
+    const userLang = navigator.language || navigator.userLanguage;
 
     let trenutniJezik = ""
 
-    if(userLang == "sl" && trenutniJezik != "sl") 
+    if (userLang == "sl" && trenutniJezik != "sl")
         spremembaJezika("sl");
     else if (userLang != "sl" && trenutniJezik != "en")
         spremembaJezika("en");
 
     // gumb za nastavljanje jezika
-    $(".slo").click(() => {spremembaJezika("sl");});
-    $(".eng").click(() => {spremembaJezika("en");});
+    $(".slo").click(() => { spremembaJezika("sl"); });
+    $(".eng").click(() => { spremembaJezika("en"); });
 
 
     /**
@@ -41,23 +41,22 @@ window.addEventListener("load", () => {
      */
     function spremembaJezika(Jezik) {
         if (Jezik == "sl") {
-            trenutniJezik = "sl"; 
-            //zgoraj opisan hrošč
-            debug.style.display="none";
+            trenutniJezik = "sl";
+            //zgoraj opisan hrošč "debug"
+            debug.style.display = "none";         
             for (let i = 0; i < spremeni.length; i++)
-                spremeni[i].innerHTML = DneviSlo[i];
-            debug.style.display="inline";
-
+                spremeni[i].innerHTML = DneviSlo[i];       
+            debug.style.display = "inline";
             prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
             prevedi[1].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
-            
+
         } else {
             trenutniJezik = "en";
-            debug.style.display="none";
+            debug.style.display = "none";
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviEng[i];
-            debug.style.display="inline";
+            debug.style.display = "inline";
             prevedi[0].innerHTML = "ASPEKT INSTITUTE    PRESENTS";
             prevedi[1].innerHTML = "EMAIL US";
             vsebina(trenutniJezik);
@@ -72,10 +71,10 @@ window.addEventListener("load", () => {
     function vsebina(jezik) {
         let imeDatoteke = `vsebina/${jezik}.json`
         $.getJSON(imeDatoteke, (data) => {
-            for (let i = 0; i < dnevi.length; i++) {  
-                let string = ""; 
+            for (let i = 0; i < dnevi.length; i++) {
+                let string = "";
                 for (let k = 0; k < data[DneviEng[i]].length; k++) {
-                    string +=  `<h3>${data[DneviEng[i]][k].naslov}</h3><p>`;
+                    string += `<h3>${data[DneviEng[i]][k].naslov}</h3><p>`;
                     for (let j = 0; j < data[DneviEng[i]][k].vrstice.length; j++) {
                         string += `${data[DneviEng[i]][k].vrstice[j]}<br>`
                     }
@@ -83,7 +82,7 @@ window.addEventListener("load", () => {
                 }
                 dnevi[i].innerHTML = string;
                 poravnaj(dnevi[i].parentNode);
-            } 
-      });
+            }
+        });
     }
 });
