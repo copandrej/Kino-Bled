@@ -48,7 +48,8 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviSlo[i];       
             debug.style.display = "inline";
             prevedi[0].innerHTML = "ZAVOD ASPEKT    PREDSTAVLJA";
-            prevedi[1].innerHTML = "PI&#352ITE NAM";
+            prevedi[1].innerHTML = "VSTOP PROST";
+            prevedi[2].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
 
         } else {
@@ -58,7 +59,8 @@ window.addEventListener("load", () => {
                 spremeni[i].innerHTML = DneviEng[i];
             debug.style.display = "inline";
             prevedi[0].innerHTML = "ASPEKT INSTITUTE    PRESENTS";
-            prevedi[1].innerHTML = "EMAIL US";
+            prevedi[1].innerHTML = "FREE ENTRY";
+            prevedi[2].innerHTML = "EMAIL US";
             vsebina(trenutniJezik);
         }
     }
