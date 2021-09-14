@@ -6,25 +6,25 @@
     },
     {
       "naslov": "20:00",
-      "vrstice": ["Honey Boy (94')"]
+      "vrstice": ["<a target='_blank' href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"]
     }
   ],
   "WEDNESDAY": [
       {
         "naslov": "07:30",
-        "vrstice": ["Evropski teden mobilnosti: Kolesarski zajtrk","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
+        "vrstice": ["<a target='_blank' href='https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf'>evropski teden mobilnosti: Kolesarski zajtrk</a>","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
       },
       {
         "naslov": "18:00",
-        "vrstice": ["otvoritev fotografske razstave: Martin Krivec"]
+        "vrstice": ["<a target='_blank' href='https://www.instagram.com/martinkrivec/'>otvoritev fotografske razstave: Martin Krivec</a>"]
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Tistega lepega dne (83’)"]
+        "vrstice": ["<a target='_blank' href='https://bsf.si/sl/film/tistega-lepega-dne/'>Tistega lepega dne (83’)</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Klub kresnička (7’)","Mojster za katastrofo (104’)"]
+        "vrstice": ["Klub kresnička (7’)","<a target='_blank' href='https://siol.net/trendi/tv-telekoma-slovenije/mojster-za-katastrofo-465192'>Mojster za katastrofo (104’)</a>"]
       }
     ],
     "THURSDAY": [
@@ -34,17 +34,17 @@
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Kolo (3’)","April in nenavadni svet (105’)","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
+        "vrstice": ["Kolo (3’)","<a target='_blank' href='https://fivia.si/index.php/movie/april-in-nenavadni-svet-10/'>April in nenavadni svet (105’)</a>","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Smaragdni raj (59’)","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
+        "vrstice": ["<a target='_blank' href='https://www.emeraldparadise.at/?lang=sl&fbclid=IwAR3aAm7nKjEhT7q7gcMcDCJBiWPdC6Q1fq8ITxDApzQS2HSK_C3_KE4KMuo'>Smaragdni raj (59’)</a>","<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"]
       }
     ],
     "FRIDAY": [
       {
         "naslov": "10:00",
-        "vrstice": ["voden ogled Bleda / guided tour of Bled","<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@Turistični informacijski center</a>"]
+        "vrstice": ["<a target='_blank' href='https://www.bled.si/sl/prireditve/2021090112071356'>voden ogled Bleda</a>","<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@Turistični informacijski center</a>"]
       },
       {
         "naslov": "17:00",
@@ -52,11 +52,11 @@
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Nažgani (117’)"]
+        "vrstice": ["<a target='_blank' href='https://www.kinodvor.org/film/nazgani/'>Nažgani (117’)</a>"]
       },
       {
         "naslov": "21:30",
-        "vrstice": ["Vrhunec (96’)"]
+        "vrstice": ["<a target='_blank' href='https://fivia.si/index.php/movie/vrhunec/'>Vrhunec (96’)</a>"]
       }
     ],
     "SATURDAY": [
@@ -66,7 +66,7 @@
       },
       {
         "naslov": "15:00",
-        "vrstice": ["Bacek Jon: Farmagedon (87’)"]
+        "vrstice": ["<a target='_blank' href='https://www.kinodvor.org/film/bacek-jon-film-farmagedon/'>Bacek Jon: Farmagedon (87’)</a>"]
       },
       {
         "naslov": "17:00",
@@ -74,11 +74,11 @@
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Krt (84’)"]
+        "vrstice": ["<a target='_blank' href='https://demiurg.si/krt-el-agente-topo/'>Krt (84’)</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Velika noč (7’)","Medved Brigsby (97’)"]
+        "vrstice": ["Velika noč (7’)","<a target='_blank' href='https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1'>Medved Brigsby (97’)</a>"]
       }
     ]
   }

@@ -52,17 +52,26 @@ h3 {
 
 .hover:hover, a:hover {
     color: black!important;
+    -webkit-transition: 0ms;
+    -moz-transition: 0ms;
+    -o-transition: 0ms;
     transition: 0ms;
 }
 
 .hover {
     cursor: pointer;
+    -webkit-transition: 50ms;
+    -moz-transition: 50ms;
+    -o-transition: 50ms;
     transition: 50ms;
 }
 
 .r {
     overflow: hidden;
-    transition-duration: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
     height: 41px;
 }
 
