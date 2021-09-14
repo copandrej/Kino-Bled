@@ -77,6 +77,8 @@ h3 {
 .r p {
     letter-spacing: -0.1em;
     font-weight: 500;
+    margin-left:25px;
+    margin-right:25px;
 }
 
 .jezik {
