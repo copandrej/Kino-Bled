@@ -2,83 +2,83 @@
   "TUESDAY": [
     {
       "naslov": "19:00",
-      "vrstice": ["otvoritev festivala","tiskovna konferenca"]
+      "vrstice": ["otvoritev festivala <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
     },
     {
       "naslov": "20:00",
-      "vrstice": ["Honey Boy (ZDA, 2019, 96’)"]
+      "vrstice": ["Honey Boy (ZDA, 2019) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
     }
   ],
   "WEDNESDAY": [
       {
         "naslov": "07:30",
-        "vrstice": ["Evropski teden mobilnosti: Kolesarski zajtrk @Infocenter Triglavska roža Bled"]
+        "vrstice": ["Evropski teden mobilnosti: Kolesarski zajtrk <a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@TRB</a>"]
       },
       {
         "naslov": "18:00",
-        "vrstice": ["otvoritev fotografske razstave"]
+        "vrstice": ["otvoritev fotografske razstave <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Tistega lepega dne (Jugoslavija/Slovenija, 1962, 83’)"]
+        "vrstice": ["Tistega lepega dne (YU/SL, 1962) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Klub kresnička (7’)","Mojster za katastrofo (The Disaster artist, ZDA, 2017, 104’)"]
+        "vrstice": ["Klub kresnička (7’)","Mojster za katastrofo (USA, 2017) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       }
     ],
     "THURSDAY": [
       {
         "naslov": "17:30",
-        "vrstice": ["potopisno predavanje: Grčija"]
+        "vrstice": ["potopisno predavanje: Grčija <a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@TRB</a>"]
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Kolo (3’)","April in nenavadni svet (Avril et le Monde truqué, Francija, 2015, 105’)"]
+        "vrstice": ["Kolo (3’)","April in nenavadni svet (FR, 2015) <a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@TRB</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Smaragdni raj (Emerald Paradise, Slovenija, 2021)"]
+        "vrstice": ["Smaragdni raj (SL, 2021) <a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@TRB</a>"]
       }
     ],
     "FRIDAY": [
       {
         "naslov": "10:00",
-        "vrstice": ["voden ogled Bleda / zbor: TIC Bled (Cesta svobode 10)"]
+        "vrstice": ["voden ogled Bleda / guided tour of Bled <a href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@TIC</a>"]
       },
       {
         "naslov": "17:00",
-        "vrstice": ["delavnica: Fiziolofija (ob lepem vremenu na prostem)"]
+        "vrstice": ["delavnica: Fiziolofija <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Nažgani (Druk, Danska, 2020, 117’)"]
+        "vrstice": ["Nažgani (DK, 2020) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "21:30",
-        "vrstice": ["Vrhunec (Climax, Francija, 2018, 96’)"]
+        "vrstice": ["Vrhunec (FR, 2018) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       }
     ],
     "SATURDAY": [
       {
         "naslov": "12:30",
-        "vrstice": ["pogovor ob kavi: Medosebni odnosi (@Tavci vegan cafe)"]
+        "vrstice": ["pogovor: V odnosu smo jaz, ti in midva <a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@TVC</a>"]
       },
       {
         "naslov": "15:00",
-        "vrstice": ["Bacek Jon: Farmagedon (Shaun the Sheep Movie: Farmageddon, VB/ZDA/FR, 2019, 87’)"]
+        "vrstice": ["Bacek Jon: Farmagedon (GB/USA/FR, 2019) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "17:00",
-        "vrstice": ["okrogla miza: Aspekti in perspektive Bleda"]
+        "vrstice": ["okrogla miza: Aspekti Bleda <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "19:00",
-        "vrstice": ["Krt (El Agente Topo, Čile, 2020, 84’)"]
+        "vrstice": ["Krt (CL, 2020) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       },
       {
         "naslov": "21:00",
-        "vrstice": ["Velika noč (7’)","Medved Brigsby (Brigsby Bear, ZDA, 2017, 97’)"]
+        "vrstice": ["Velika noč (7’) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>","Medved Brigsby (USA, 2017) <a href='https://g.page/festivalna-dvorana-bled?share' target='_blank'>@FD</a>"]
       }
     ]
   }
